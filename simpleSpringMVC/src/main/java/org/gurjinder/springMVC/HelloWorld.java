@@ -7,7 +7,8 @@ import org.springframework.web.servlet.mvc.AbstractController;
 
 
 public class HelloWorld extends AbstractController{
-	 
+	   String name;
+	 	
 		@Override
 		protected ModelAndView handleRequestInternal(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
